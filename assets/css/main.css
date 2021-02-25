@@ -2596,6 +2596,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			border: 1px solid black;
 		}
 
 		.image.left, .image.right {
@@ -2633,18 +2634,16 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+
 			margin: 4rem 0;
-			width: 100%;
+			width: 400px;
+			height: 700px;
 		}
 
 			.image.main:first-child {
 				margin-top: 0;
 			}
 
-			.image.main img {
-				width: 100%;
-			}
 
 		@media screen and (max-width: 736px) {
 
